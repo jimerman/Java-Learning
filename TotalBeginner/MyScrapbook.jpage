@@ -1,0 +1,8 @@
+ArrayList<Book> list = new ArrayList<>();
+list.add(new Book("Great Expectations"));
+list.add(new Book("War and Peace"));
+
+Person p1 = new Person("Fred");
+list.get(0).setPerson(p1);
+
+list
